@@ -63,5 +63,55 @@ The API should enforce validation for all POST requests to ensure data integrity
 
 - Ensure that relationships between tables (foreign keys) are maintained.
 - Use English language conventions for all aspects of the system, including class names, table names, and JSON representations.
+COMANDOS
+(Con composer:
 
-Feel free to reach out if you have any questions or need further clarification. Happy coding!
+composer create-project symfony/skeleton my_project ^4.4.0
+
+ESTABLECER REQUISITOS
+composer require annotations
+
+Extendida:
+
+composer require doctrine/annotations
+
+composer require --dev maker
+
+Extendida:
+
+composer require --dev symfony/maker-bundle
+
+composer require twig
+
+Extendida:
+
+composer require twig/twig
+
+composer require orm
+
+Extendida:
+
+composer require symfony/orm-pack
+
+GENERAR CONTROLADOR
+php bin/console make:controller Prueba
+
+COMANDOS DOCTRINE
+php bin/console doctrine:database:create
+
+Para crear una entidad:
+
+php bin/console make:entity
+
+Para crear un nuevo campo:
+
+php bin/console make:entity
+
+Para modificar una propiedad:
+
+1. Actualizar PHP
+2. php bin/console make:migration
+
+Actualizar SQL:
+
+2.1 php bin/console doctrine:migrations:migrate) en ingles)
