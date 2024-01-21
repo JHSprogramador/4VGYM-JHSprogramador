@@ -63,6 +63,8 @@ The API should enforce validation for all POST requests to ensure data integrity
 
 - Ensure that relationships between tables (foreign keys) are maintained.
 - Use English language conventions for all aspects of the system, including class names, table names, and JSON representations.
+
+
 COMANDOS
 (Con composer:
 
